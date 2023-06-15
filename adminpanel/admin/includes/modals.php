@@ -222,7 +222,6 @@
             <input type="file" name="questionImage" id="question_image" class="form-control" accept="image/*">
             <input type=" " name="question" id="course_name" class="form-control" placeholder="Input question" autocomplete="off">
           </div>
-
           <fieldset>
             <legend>Input word for choice's</legend>
             <div class="form-group">
@@ -248,6 +247,11 @@
             <div class="form-group">
                 <label>Correct Answer</label>
                 <input type="" name="correctAnswer" id="" class="form-control" placeholder="Input correct answer" autocomplete="off">
+            </div>
+
+            <div class="form-group">
+                <label>Answer Description</label>
+                <input type="" name="answerDescription" id="" class="form-control" placeholder="Description of the correct answer" autocomplete="off">
             </div>
           </fieldset>
         </div>
