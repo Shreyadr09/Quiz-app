@@ -9233,7 +9233,11 @@ button,
 }
 .app-header.header-text-light .app-header__logo .logo-src {
   background: url(assets/images/logo.png);
+    height: 50px;
+    width: 50px;
+    background-size: contain;
 }
+
 .app-header.header-text-light .app-header__mobile-menu .hamburger-inner,
 .app-header.header-text-light .app-header__mobile-menu .hamburger-inner::before,
 .app-header.header-text-light .app-header__mobile-menu .hamburger-inner::after {
@@ -9352,6 +9356,9 @@ button,
 }
 .app-header.header-text-dark .app-header__logo .logo-src {
   background: url(assets/images/logo-inverse.png);
+  height: 50px;
+  width: 50px;
+  background-size: contain;
 }
 .app-sidebar {
   width: 280px;
@@ -9588,7 +9595,10 @@ button,
   background: rgba(255, 255, 255, 0.2);
 }
 .app-sidebar.sidebar-text-light .app-header__logo .logo-src {
-  background: url(assets/images/logo.png);
+    height: 50px;
+    width: 50px;
+    background: url(assets/images/logo.png);
+    background-size: contain;
 }
 .app-sidebar.sidebar-text-light .app-header__logo .hamburger-inner,
 .app-sidebar.sidebar-text-light .app-header__logo .hamburger-inner::before,

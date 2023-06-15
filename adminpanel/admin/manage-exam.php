@@ -183,6 +183,9 @@ if(!isset($_SESSION['admin']['adminnakalogin']) == true) header("location:index.
                                                               <?php }
 
                                                              ?>
+                                                             <!-- Solution -->
+                                                             <span class="pl-4"><i>Solution - <i><?php echo $selQuestionRow['correct_answer_description']; ?></span><br>
+                                                             
                                                             
                                                         </td>
                                                         <td class="text-center">

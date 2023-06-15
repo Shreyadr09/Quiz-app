@@ -38,8 +38,8 @@
                     		<tr>
                     			<td>
                     				<b><p><?php echo $i++; ?> .) <?php echo $selQuestRow['exam_question']; ?></p></b>
-                    				<label class="pl-4 text-success">
-                    					Answer : 
+                    				<label class="pl-4 text-successx`">
+                    					Your Answer : 
                     					<?php 
                     						if($selQuestRow['exam_answer'] != $selQuestRow['exans_answer'])
                     						{ ?>
@@ -49,6 +49,24 @@
                     						{ ?>
                     							<span class="text-success"><?php echo $selQuestRow['exans_answer']; ?></span>
                     						<?php }
+                    					 ?>
+                    				</label>
+                                    <br>
+                                    <label class="pl-4 text-succes">
+                    					Correct Answer : 
+                    					<?php 
+                    						 ?>
+                    							<span class="text-success"><?php echo $selQuestRow['exam_answer']; ?></span>
+                    						<?php 
+                    					 ?>
+                    				</label>
+                                    <br>
+                                    <label class="pl-4 text-succes">
+                    					Explanation : 
+                    					<?php 
+                    						 ?>
+                    							<span class="text-success"><?php echo $selQuestRow['correct_answer_description']; ?></span>
+                    						<?php 
                     					 ?>
                     				</label>
                     			</td>

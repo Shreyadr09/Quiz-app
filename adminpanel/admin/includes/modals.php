@@ -219,7 +219,7 @@
           <div class="form-group">
             <label>Question</label>
             <input type="hidden" name="examId" value="<?php echo $exId; ?>">
-            <input type="file" name="questionImage" id="question_image" class="form-control" accept="image/*">
+            <!-- <input type="file" name="questionImage" id="question_image" class="form-control" accept="image/*"> -->
             <input type=" " name="question" id="course_name" class="form-control" placeholder="Input question" autocomplete="off">
           </div>
           <fieldset>
