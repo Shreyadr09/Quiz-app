@@ -1,9 +1,9 @@
 <?php 
 
-$host = "localhost";
-$user = "root";
-$pass = "";
-$db   = "cee_db";
+$host = "mysql-venkatesh.alwaysdata.net";
+$user = "venkatesh";
+$pass = "Venki2002@";
+$db   = "venkatesh_examindia";
 $conn = null;
 
 try {
@@ -11,6 +11,5 @@ try {
 } catch (Exception $e) {
   
 }
-
 
  ?>
